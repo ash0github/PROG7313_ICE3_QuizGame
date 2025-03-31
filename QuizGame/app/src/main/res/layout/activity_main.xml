@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:textSize="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to KWIZ!"
+        android:paddingBottom="15dp"
+        android:textSize="18dp"/>
+
+<LinearLayout
+    android:id="@+id/categoryView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/categoryButton1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gardening" />
+
+    <Button
+        android:id="@+id/categoryButton2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Astronomy" />
+
+    <Button
+        android:id="@+id/categoryButton3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="General Knowledge" />
+
+    <Button
+        android:id="@+id/categoryButton4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Computer Science" />
+
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:paddingTop="14dp"
+        android:text="" />
+
+</LinearLayout>
+
+<LinearLayout
+android:id="@+id/questionView"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="vertical">
+
+<TextView
+    android:id="@+id/questionTextView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textAlignment="center"
+    android:paddingBottom="15dp"
+    android:text="Question" />
+
+<Button
+    android:id="@+id/option1Button"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Option 1" />
+
+<Button
+    android:id="@+id/option2Button"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Option 2" />
+
+<Button
+    android:id="@+id/option3Button"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Option 3" />
+
+<Button
+    android:id="@+id/option4Button"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Option 4" />
+
+</LinearLayout>
+
+</LinearLayout>

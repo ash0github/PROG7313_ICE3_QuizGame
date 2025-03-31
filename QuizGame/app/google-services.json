@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "77493357166",
+    "project_id": "fir-test-e2433",
+    "storage_bucket": "fir-test-e2433.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:77493357166:android:a42e8b3d5043be58c0747f",
+        "android_client_info": {
+          "package_name": "com.bread.firebasetester"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7fDYArUVJeYvXlW2EQqVLtTenB1NJO_M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:77493357166:android:645dc195fc95b070c0747f",
+        "android_client_info": {
+          "package_name": "com.bread.quizgame"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7fDYArUVJeYvXlW2EQqVLtTenB1NJO_M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
